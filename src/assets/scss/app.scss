@@ -13,19 +13,24 @@
         background: #f3f3f3
     }
 
-        td,
-        a,
-        h1,
-        h2,
-        h3,
-        h4,
-        p,
-        li,
-        div,
-        span {
-            font-family: 'Open Sans', sans-serif !important;
-        }
-    }
+}
+
+.smaller {
+    font-size: 12px;
+}
+
+.business-address {
+    background: #f3f3f3;
+}
+
+.business-address p {
+    font-size: 12px;
+}
+
+
+.business-address a {
+    color: #000000 !important;
+}
 
 // @import 'template/template';
 .top-text {
@@ -53,7 +58,9 @@ td {
     -ms-hyphens: none;
 }
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
     text-decoration: underline;
     font-weight: normal;
     color: #9a0027;
@@ -131,6 +138,7 @@ sup {
 .three-col-logo {
     width: 130px;
 }
+
 //.product-name {
 //    white-space: nowrap;
 //}
@@ -141,23 +149,28 @@ sup {
         height: 42px !important;
         margin: 0 5px;
     }
+
     .large-float-right {
         display: inline;
         float: right;
     }
+
     .hide-hardbreak {
         display: none;
     }
+
     .three-col-logo {
         width: 160px !important;
     }
+
     .vsl-logo {
         max-width: 154px;
     }
+
     .rep-photo {
         width: 96px !important;
     }
-    
+
     .rsvp-icon {
         height: 88px !important;
     }
